@@ -6,7 +6,7 @@ class LogDebug {
 
     val TAG = "AWESOME_APP"
 
-    fun p(message:String){
+    private fun p(message:String){
         Log.d(TAG,message)
     }
 }
